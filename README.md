@@ -6,7 +6,7 @@ To download my game release please go to [this link][1] and anjoy game.
 
 To compile this code, download GODOT IDE from [this link][2] and choose "import" to project list.
 
-## **foreword **
+## **Foreword**
 I rode this mini-game based on the project I have been developing for years: [Wild Witch Project][3]. 
 
 Contains two parts: a 2D platform and a side-scrolling, made to test the potential of this game engine.
