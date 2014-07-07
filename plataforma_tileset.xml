@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="TileSet" subresource_count="5" version="1.0" version_name="Godot Engine v1.0.3917-beta1">
+	<ext_resource path="res://plataform.png" type="Texture"></ext_resource>
+	<resource type="ConvexPolygonShape2D" path="local://1">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			0, 64, 0, 0, 64, 0, 64, 64 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://2">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			0, 64, 0, 0, 64, 0, 64, 64 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://3">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			0, 32, 0, 0, 64, 0, 64, 32 </vector2_array>
+
+	</resource>
+	<main_resource>
+		<string name="0/name"> "Sprite" </string>
+		<resource name="0/texture" resource_type="Texture" path="res://plataform.png">  </resource>
+		<vector2 name="0/tex_offset"> 0, 0 </vector2>
+		<vector2 name="0/shape_offset"> -0, -0 </vector2>
+		<rect2 name="0/region"> 0, 0, 64, 64 </rect2>
+		<array name="0/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://1">  </resource>
+		</array>
+		<string name="1/name"> "Sprite 2" </string>
+		<resource name="1/texture" resource_type="Texture" path="res://plataform.png">  </resource>
+		<vector2 name="1/tex_offset"> 0, 0 </vector2>
+		<vector2 name="1/shape_offset"> -0, -0 </vector2>
+		<rect2 name="1/region"> 64, 0, 64, 64 </rect2>
+		<array name="1/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://2">  </resource>
+		</array>
+		<string name="2/name"> "Sprite 3" </string>
+		<resource name="2/texture" resource_type="Texture" path="res://plataform.png">  </resource>
+		<vector2 name="2/tex_offset"> 0, 0 </vector2>
+		<vector2 name="2/shape_offset"> 0, 0 </vector2>
+		<rect2 name="2/region"> 128, 0, 64, 64 </rect2>
+		<array name="2/shapes" len="0" shared="false">
+		</array>
+		<string name="3/name"> "Sprite 4" </string>
+		<resource name="3/texture" resource_type="Texture" path="res://plataform.png">  </resource>
+		<vector2 name="3/tex_offset"> 0, 0 </vector2>
+		<vector2 name="3/shape_offset"> -0, -0 </vector2>
+		<rect2 name="3/region"> 192, 0, 64, 64 </rect2>
+		<array name="3/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://3">  </resource>
+		</array>
+		<string name="4/name"> "Sprite 5" </string>
+		<resource name="4/texture" resource_type="Texture" path="res://plataform.png">  </resource>
+		<vector2 name="4/tex_offset"> 0, 0 </vector2>
+		<vector2 name="4/shape_offset"> 0, 0 </vector2>
+		<rect2 name="4/region"> 0, 0, 64, 64 </rect2>
+		<array name="4/shapes" len="0" shared="false">
+		</array>
+		<string name="5/name"> "Sprite 6" </string>
+		<resource name="5/texture" resource_type="Texture" path="res://plataform.png">  </resource>
+		<vector2 name="5/tex_offset"> 0, 0 </vector2>
+		<vector2 name="5/shape_offset"> 0, 0 </vector2>
+		<rect2 name="5/region"> 192, 192, 64, 64 </rect2>
+		<array name="5/shapes" len="0" shared="false">
+		</array>
+		<string name="6/name"> "Sprite 7" </string>
+		<resource name="6/texture" resource_type="Texture" path="res://plataform.png">  </resource>
+		<vector2 name="6/tex_offset"> 0, 0 </vector2>
+		<vector2 name="6/shape_offset"> 0, 0 </vector2>
+		<rect2 name="6/region"> 192, 128, 64, 64 </rect2>
+		<array name="6/shapes" len="0" shared="false">
+		</array>
+
+	</main_resource>
+</resource_file>
